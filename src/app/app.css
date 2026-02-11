@@ -1,0 +1,34 @@
+
+.container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.imagen-principal {
+  max-width: 90%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 8px; /* opcional */
+}
+
+.titulo-gotico {
+  font-family: 'GothicFont', 'Arial Black', sans-serif;
+  color: white;
+  font-size: 4rem;
+  letter-spacing: 4px; /* opcional, para darle más estilo */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* opcional */
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .titulo-gotico {
+    font-size: 2.5rem;
+  }
+}
