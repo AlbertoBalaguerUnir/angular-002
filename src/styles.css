@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'GothicFont';
   src: url('/fonts/JBLACK.TTF') format('truetype');
-
   font-weight: normal;
   font-style: normal;
+  font-display: block; /*¡Esperamos a la fuente! :)*/
 }
 
 * {
